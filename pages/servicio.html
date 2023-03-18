@@ -5,78 +5,124 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ChipMG</title>
-        <link rel="shortcut icon" href="../favicom.ico" type="image/x-icon">
-         <!--Estilos-->
-         <link rel="stylesheet" href="../css/estilos.css">
+        <!--favicom-->
+        <link rel="shortcut icon" href="./favicom.ico" type="image/x-icon">
+        <!--font awesome-->
+        <script src="https://kit.fontawesome.com/46225cdcb2.js" crossorigin="anonymous"></script>
+        <!--bs-->
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <!--estilos-->
+        <link rel="stylesheet" href="../css/estilos.css">
     </head>
-    <body>
-        <header>
-            <div class="navegaciontotal">
-                <nav class="navegacion">
-                    <a href="../index.html">
-                        <img src="../assets/img/Logo PAGE.png" alt="Logo ChipMG" width="100" class="logo">
-                    </a>
-                    <ul class="barradenavegacion">
-                        <li>
-                            <a class="linkNav" href="../index.html">INICIO</a>
+    <body class="imgfondo">
+        <header class="bg-img bg-size bg-size-sm">
+            <!--ColorNav: cambio el color de navegador-->
+            <nav class="navbar slide navbar-expand-lg navbar-light ColorNav text-white position-fixed w-100">
+                <div class="container-fluid">
+                  <a class=" logo navbar-brand" href="./index.html">
+                    <img src="../assets/img/Logo PAGE.png" alt="Logo ChipMG" width="100" height="100">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end w-100">
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-4" href="../index.html">INICIO</a>
                         </li>
-                        <li>
-                            <a class="linkNav" href="#">SERVICIO</a>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-4" href="#">SERVICIO</a>
                         </li>
-                        <li>
-                            <a class="linkNav" href="./Reprogramaciones.html">REPROGRAMACIONES</a>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-4" href="./Reprogramaciones.html">REPROGRAMACIONES</a>
                         </li>
-                        <li>
-                            <a  class="linkNav"href="./pages/contacto.html">CONTACTO</a>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-4" href="./contacto.html">CONTACTO</a>
                         </li>
-                        <li>
-                            <a class="linkNav" href="./pages/galeria.html">GALERIA</a>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-4" href="./galeria.html">GALERIA</a>
                         </li>
-                        
                     </ul>
-                </nav>
-            </div>
+                    </div>
+                </div>
+              </nav>
         </header>
-         <main>
-            <div>
-                <a href="">Reprogramaciones <img src="../assets/img/cohete (1).png" alt="imagen de reprogramaciones" width="50 "></a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat illo cumque neque inventore, ad vero doloremque officia fuga quidem, dolor deserunt iure autem, quo quam ratione nam quas in minima?</p>
+        <main class="p-5 bg--img">
+          <div class="container">
+            <div class="row">
+              <!--REPROGRAMACIONES-->
+              <div class="col-sm-6 col-md-3 text-center text-black">
+                <img src="../assets/img/cohete.gif" alt="imagen de reprogramaciones" class="" width="50 "></a><br><a href="./Reprogramaciones.html" class="text-black fs-4">REPROGRAMACIONES</a>
+                <!--TEXTO DE REPROGRAMACIONES-->
+                <p class="text-uppercas">
+                    Contamos con la ultima tecnologia en software para optimizar el funcionamiento de tu motor de forma segura y efectiva.
+                </p>
+              </div>
+              <!--VENTA DE ACCESORIOS-->
+              <div class="col-sm-6 col-md-3 text-center text-black">
+                <img src="../assets/img/velocimetro.gif" alt="imagen de reprogramaciones" class="" width="50 "></a><br><a href="./Reprogramaciones.html" class="text-black fs-4">VENTA DE ACCESORIOS</a>
+                <!--TEXTO DE VENTA DE ACCESORIOS-->
+                </p>
+                    Tenemos los mejores accesorios para  completar la optimizacion de tu vehiculo al maximo
+                </p>
+              </div>
+              <!--INSTALACIONES-->
+              <div class="col-sm-6 col-md-3 text-center text-black">
+                <img src="../assets/img/herramientas-para-reparar.gif" alt="imagen de reprogramaciones" class="" width="50 "></a><br><a href="./Reprogramaciones.html" class="text-black fs-4">INSTALACIONES</a>
+                <!--TEXTO DE INSTALACIONES-->
+                </p class="text-justify">
+                    Contamos con un taller para llevar a cabo tanto las reprogramaciones con un banco de prubas, como las instalaciones de accsesorios adicionales que puedan llegar a necesitarse.
+                </p>
+              </div>
+              <!--ASESORAMIENTO-->
+              <div class="col-sm-6 col-md-3 text-center text-black">
+                <img src="../assets/img/asistencia.gif" alt="imagen de reprogramaciones" class="" width="50 "></a><br><a href="./contacto.html" class="text-black fs-4">ASESORAMIENTO</a>
+                <!--TEXTO DE ASESORAMIENTO-->
+                </p>
+                    Tenemos un equipo con experiencia en el rubro que podran guiarte y asesorarte segun tus necesidades.
+                </p>
+              </div>
             </div>
-            <div>
-                <a href="">Venta de acccesorios <img src="../assets/img/tacometro.png" alt="imagen de venta de accesorios" width="50"></a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat illo cumque neque inventore, ad vero doloremque officia fuga quidem, dolor deserunt iure autem, quo quam ratione nam quas in minima?</p>
-            </div>
-            <div>
-                <a href="">Instalaciones <img src="../assets/img/configuraciones.png" alt="imagen de instalaciones" width="50"></a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat illo cumque neque inventore, ad vero doloremque officia fuga quidem, dolor deserunt iure autem, quo quam ratione nam quas in minima?</p>
-            </div>
-            <div>
-                <a href="">Asesoramiento <img src="../assets/img/persona.png" alt="imagen de Asesoramiento" width="50"></a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat illo cumque neque inventore, ad vero doloremque officia fuga quidem, dolor deserunt iure autem, quo quam ratione nam quas in minima?</p>
-            </div>
-
-            
+          </div>
         </main>
-        <footer>
-            <div>
-                <div class="divfooter">
-                    <nav>
-                        <a href="#">
-                            <img class="logofooter" src="../assets/img/Logo PAGE.png" alt="logo" width="100">
-                        </a>
-                        <a class="instagram" href="https://www.instagram.com/"target="_blank"><img src="../assets/img/instagram (1).png" alt="logo de instagram" width="30"></a>
-                        <a class="facebook" href="https://www.facebook.com/"target="_black"><img src="../assets/img/facebook.png" alt="logo de facebook" width="30"></a>
-                        <div>
-                            <a class="whatsapp" href="https://web.whatsapp.com/"target="_black"><img src="../assets/img/whatsapp.png" alt="logo de wahatsapp" width="50"></a>
-                        </div>
-                    </nav>
-                        <div>
-                            <h4 class="textodefooter">2023 ChipMG Argentina</h4>
-                        </div>
-                        
+        <footer class="bg-danger text-white py-3">
+          <!-- Aquí irá el contenido del footer -->
+          <div class="container text-center">
+            
+            <div class="d-inline-block mx-3">
+              <a href="enlace-de-instagram" class="text-white"></a>
+            </div>
+            <div class="d-inline-block mx-3">
+              <a href="enlace-de-facebook" class="text-white"></a>
+            </div>
+            <div class="d-inline-block mx-3">
+              <a href="enlace-de-whatsapp" class="text-white"></a>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 col-md-4 text-md-start">
+                <section>
+                  <a class="row col-sm-5" href="#">
+                    <img src="../assets/img/Logo PAGE.png" lass="img-fluid" alt="logo CHIPMG" width="20">
+                  </a>
+                </section>
+                  </div>
+                    <div class="col-sm-12 col-md-4">
+                      <div class="d-inline-block mx-3">
+                        <a href="https://www.instagram.com/" target="_blank" class="text-white"><i class="fab fa-instagram fa-2x text-black"></i></a>
+                      </div>
+                      <div class="d-inline-block mx-3">
+                        <a href="https://www.facebook.com/" target="_blank" class="text-white"><i class="fab fa-facebook fa-2x text-black"></i></a>
+                      </div>
+                      <div class="align-items-start mx-3 p-5">
+                        <p class="text-black">2023 CHIPMG Argentina</p>
+                      </div>
+                    </div>
+                        <div class="col-sm-12 col-md-4 text-md-end mt-3 mt-md-0">
+                          <a href="https://www.whatsapp.com/?lang=es" target="_blank" class="text-white"><i class=" fixed-bottom p-3 fab fa-whatsapp fa-4x text-black"></i></a>
                         </div>
                 </div>
-            </div>
+              </div>
         </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
