@@ -1,4 +1,9 @@
 /* ESTILADO DEL HEADER-INDEX*/
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
 .bg-img{ /*IMAGEN DE FONDO DE NAVEGADOR*/
    background-image: url(../assets/img/Imagen\ de\ Inicio1.jpg);
    width:100%;
