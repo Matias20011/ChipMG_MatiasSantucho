@@ -41,4 +41,16 @@
 }
 .bg--img .text-black .fs-4 p {
   font-family: "Roboto";
+}
+
+.formulariototal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formulariototal .imagenformulario img {
+  max-width: 100%;
+}
+.formulariototal .imagenformulario img .formulario {
+  padding: 20px;
 }/*# sourceMappingURL=estilos.css.map */
